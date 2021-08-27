@@ -40,7 +40,6 @@ def previous_music():
 
 
 music_number = 0
-pause_and_play = True
 
 window = Tk()
 window.geometry('330x120')
