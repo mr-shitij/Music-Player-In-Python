@@ -46,12 +46,11 @@ window = Tk()
 window.geometry('330x120')
 window.resizable(False, False)
 window.title('Mp3 Player By Shitij Agrawal')
-# window.iconbitmap('@/home/shitij/program/venv/programs/Mp3_Player/images/logo.xbm')
 
 instance = vlc.Instance()
 player = instance.media_player_new()
 
-my_music = glob.glob('/home/shitij/Music/*.mp3')
+my_music = glob.glob('/home/user/Music/*.mp3')  # path to music folder
 
 play_image = PhotoImage(file='images/play.png')
 pause_image = PhotoImage(file='images/pause.png')
