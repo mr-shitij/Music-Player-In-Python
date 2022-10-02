@@ -44,7 +44,7 @@ music_number = 0
 window = Tk()
 window.geometry('330x120')
 window.resizable(False, False)
-window.title('Mp3 Player By Shitij Agrawal')
+window.title('Mp3 Player')
 
 instance = vlc.Instance()
 player = instance.media_player_new()
